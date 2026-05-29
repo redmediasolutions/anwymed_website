@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ModulePage from '../components/ModulePage.astro';
+
+const iconSvg = `<svg class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+</svg>`;
+---
+<Layout title="Vitals Management">
+  <ModulePage
+    iconSvg={iconSvg}
+    title="Vitals Management"
+    subtitle="Record and monitor patient vital signs during consultations"
+    description="Track comprehensive vital signs including blood pressure, pulse, temperature, oxygen saturation, height, weight, and BMI. Maintain historical vitals data for better diagnosis support and treatment planning."
+    features={[
+      "Blood pressure tracking",
+      "Pulse monitoring",
+      "Temperature recording",
+      "Oxygen saturation monitoring",
+      "Height and weight recording",
+      "BMI calculation",
+      "Clinical notes",
+    ]}
+    benefits={[
+      "Complete patient assessment at every visit",
+      "Better diagnosis support with comprehensive vitals",
+      "Historical vitals tracking for trend analysis",
+      "Improved treatment planning based on patient data",
+    ]}
+  />
+</Layout>

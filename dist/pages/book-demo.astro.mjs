@@ -1,0 +1,25 @@
+import { b as createComponent, r as renderComponent, h as renderTemplate, m as maybeRenderHead, a as addAttribute } from '../chunks/astro/server_Cm3P8ug0.mjs';
+import 'piccolore';
+import { $ as $$Layout } from '../chunks/Layout_8IilYkJq.mjs';
+export { renderers } from '../renderers.mjs';
+
+const $$BookDemo = createComponent(($$result, $$props, $$slots) => {
+  const targetPhoneNumber = "9591591783";
+  const defaultMessage = encodeURIComponent("Hello AnwyMed Team, I would like to schedule a personalized live product demo for our medical clinic.");
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=91${targetPhoneNumber}&text=${defaultMessage}`;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Book an Engineering Product Demo", "description": "Connect instantly with an AnwyMed systems supervisor to deploy your personalized dashboard configuration." }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="min-h-[75vh] flex items-center justify-center px-4 py-12 relative"> <div class="absolute inset-0 pointer-events-none opacity-40"> <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl"></div> </div> <div class="max-w-xl w-full bg-white rounded-3xl border border-slate-200/80 p-8 md:p-10 shadow-2xl relative z-10 text-center"> <div class="w-16 h-16 bg-blue-50 text-blue-600 border border-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-inner"> <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path> </svg> </div> <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight text-slate-900 mb-3">Schedule Your Live System Demo</h1> <p class="text-sm md:text-base text-slate-500 mb-8 max-w-sm mx-auto">Connect directly with our implementation supervisors to configure AnwyMed specifically for your clinic space.</p> <div class="space-y-4"> <a${addAttribute(whatsappUrl, "href")} target="_blank" rel="noopener noreferrer" class="flex items-center justify-center space-x-3 w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-600/10 hover:shadow-emerald-600/20 transition-all hover:-translate-y-0.5 text-sm"> <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"> <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.454L0 24zm6.59-3.507c1.66.986 3.295 1.503 5.344 1.504 5.594 0 10.147-4.55 10.15-10.143.002-2.71-1.05-5.257-2.96-7.17C17.207 2.77 14.662 1.718 12.002 1.718c-5.604 0-10.157 4.551-10.16 10.146-.001 2.105.556 4.161 1.614 5.993l-.995 3.637 3.733-.979zm12.357-7.234c-.33-.165-1.951-.963-2.251-1.072-.3-.11-.518-.165-.736.165-.218.33-.846 1.072-1.037 1.292-.19.219-.383.245-.713.08-1.18-.59-1.965-.984-2.748-2.327-.206-.353.206-.328.589-1.09.064-.131.033-.245-.017-.344-.049-.1-.418-1.01-.573-1.38-.15-.36-.316-.31-.418-.315-.106-.005-.228-.006-.35-.006-.122 0-.32.046-.488.23-.168.184-.64.626-.64 1.528 0 .902.656 1.773.748 1.895.091.122 1.291 1.97 3.129 2.763.437.189.778.301 1.044.385.439.14.839.12 1.155.073.353-.053 1.072-.438 1.222-.862.15-.424.15-.788.105-.862-.045-.074-.165-.119-.495-.284z"></path> </svg> <span>Initialize Chat Demo Activation</span> </a> <a${addAttribute(`tel:+91${targetPhoneNumber}`, "href")} class="flex items-center justify-center space-x-3 w-full py-4 bg-slate-50 border border-slate-200/80 text-slate-800 font-semibold rounded-xl hover:bg-slate-100 transition-all text-sm"> <svg class="w-4 h-4 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"> <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path> </svg> <span>Call Support Line directly</span> </a> </div> <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-center space-x-2 text-xs text-slate-400 font-medium"> <svg class="w-4 h-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path> </svg> <span>Secure end-to-end integration desk</span> </div> </div> </div> ` })}`;
+}, "/Users/sujaykumar/Downloads/astro-project/src/pages/book-demo.astro", void 0);
+
+const $$file = "/Users/sujaykumar/Downloads/astro-project/src/pages/book-demo.astro";
+const $$url = "/book-demo";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$BookDemo,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

@@ -1,0 +1,36 @@
+import { b as createComponent, r as renderComponent, h as renderTemplate } from '../chunks/astro/server_Cm3P8ug0.mjs';
+import 'piccolore';
+import { $ as $$Layout } from '../chunks/Layout_8IilYkJq.mjs';
+import { $ as $$ModulePage } from '../chunks/ModulePage_iAAYF7vQ.mjs';
+export { renderers } from '../renderers.mjs';
+
+const $$FollowUpManagement = createComponent(($$result, $$props, $$slots) => {
+  const iconSvg = `<svg class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+</svg>`;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Follow-Up Management" }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "ModulePage", $$ModulePage, { "iconSvg": iconSvg, "title": "Follow-Up Management", "subtitle": "Ensure patients receive timely follow-up care", "description": "Schedule and track patient follow-ups with automated reminders, maintain follow-up history, and add clinical notes. Improve patient outcomes and retention through systematic follow-up management.", "features": [
+    "Follow-up scheduling",
+    "Follow-up reminders",
+    "Follow-up history",
+    "Clinical notes",
+    "Patient tracking"
+  ], "benefits": [
+    "Improved patient outcomes through timely care",
+    "Increased patient retention and loyalty",
+    "Better continuity of care across visits"
+  ] })} ` })}`;
+}, "/Users/sujaykumar/Downloads/astro-project/src/pages/follow-up-management.astro", void 0);
+
+const $$file = "/Users/sujaykumar/Downloads/astro-project/src/pages/follow-up-management.astro";
+const $$url = "/follow-up-management";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$FollowUpManagement,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };
